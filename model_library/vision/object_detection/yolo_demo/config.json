@@ -1,0 +1,14 @@
+{
+    "model_name": "best",
+    "task": "object_detection",
+    "model_file": "best.onnx",
+    "input_size": [
+        960,
+        960
+    ],
+    "conf_threshold": 0.25,
+    "iou_threshold": 0.45,
+    "providers": [
+        "CPUExecutionProvider"
+    ]
+}
