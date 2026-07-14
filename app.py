@@ -35,7 +35,8 @@ def root():
         "message": "AI Model Library Demo is running",
         "available_models": list(MODEL_REGISTRY.keys())
     }
-
+def pyh():
+    return pyh
 
 @app.get("/models")
 def list_models():
